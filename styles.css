@@ -1,0 +1,29 @@
+body {
+  background: #a8c0ff; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #3f2b96,
+    #a8c0ff
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #3f2b96,
+    #a8c0ff
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  height: 100vh;
+}
+
+.telo {
+  background: rgba(255, 255, 255, 0.29);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10.4px);
+  -webkit-backdrop-filter: blur(10.4px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  width: 300px;
+  height: 400px;
+}
