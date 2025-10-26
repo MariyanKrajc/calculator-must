@@ -1,3 +1,7 @@
+@font-face {
+  font-family: Botaky;
+  src: url(fonts/BotakyGX.ttf);
+}
 body {
   background: #a8c0ff; /* fallback for old browsers */
   background: -webkit-linear-gradient(
@@ -15,6 +19,7 @@ body {
   align-items: center;
   margin: 0;
   height: 100vh;
+  font-family: Botaky, sans-serif;
 }
 
 .telo {
@@ -26,4 +31,35 @@ body {
   border: 1px solid rgba(255, 255, 255, 0.15);
   width: 300px;
   height: 400px;
+}
+
+.klavesnica > div {
+  width: 70px;
+  height: 30px;
+  border: 1px solid red;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.vypocet {
+  border: 1px solid yellow;
+  height: 30px;
+  width: 100%;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: 18px;
+}
+
+.vysledok {
+  border: 1px solid green;
+  height: 60px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: 24px;
 }
