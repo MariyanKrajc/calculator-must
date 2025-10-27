@@ -7,27 +7,29 @@
     <title>majoonk | grafický dizajnér</title>
   </head>
   <body>
-    <div class="telo">
-      <div class="vypocet">vypocet</div>
-      <div class="vysledok"></div>
+    <main>
+      <div class="nazov">Calculatorus</div>
+      <div class="vypocet" readonly></div>
+      <div class="vysledok" readonly></div>
       <div class="klavesnica">
-        <div>1</div>
-        <div>2</div>
-        <div>3</div>
-        <div>4</div>
-        <div>5</div>
-        <div>6</div>
-        <div>7</div>
-        <div>8</div>
-        <div>9</div>
-        <div>0</div>
-        <div>+</div>
-        <div>-</div>
-        <div>*</div>
-        <div>/</div>
-        <div>=</div>
-        <div>,</div>
+        <button onclick="appendTovypocet(9)">9</button>
+        <button>8</button>
+        <button>7</button>
+        <button>*</button>
+        <button>6</button>
+        <button>5</button>
+        <button>4</button>
+        <button>/</button>
+        <button>3</button>
+        <button>2</button>
+        <button>1</button>
+        <button>-</button>
+        <button></button>
+        <button>0</button>
+        <button>=</button>
+        <button>+</button>
       </div>
-    </div>
+      <script src="scripts.js"></script>
+    </main>
   </body>
 </html>
